@@ -104,9 +104,9 @@ Prop_diet <- genus_diet_major %>%
 
 Prop_diet 
 
-#----------------------------------------------------------------------------------------------------#
-### Estimate the proportion of species - whose functional group was predicted correctly
-#----------------------------------------------------------------------------------------------------#
+#----------------------------------------------------------------------------------------#
+### Estimate the proportion of species - whose functional group was accurately predicted
+#----------------------------------------------------------------------------------------#
 
 prop_ftn_group_mammals <- sum(Prop_diet$diet_incid)/length(Prop_diet$diet_incid)
 prop_ftn_group_mammals
