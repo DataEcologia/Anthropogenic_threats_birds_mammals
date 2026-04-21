@@ -75,7 +75,7 @@ genus_diet <- left_join(mammal_genera_without_diet_data, mammals_traits2,
 genus_diet
 
 #-----------------------------------------------------------------#
-### Estimate the most common functional group of the genus
+### Estimate the most common functional group per genus
 #-----------------------------------------------------------------#
 
 genus_diet2 <- as.data.table(genus_diet)
