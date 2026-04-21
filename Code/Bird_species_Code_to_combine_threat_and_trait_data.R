@@ -134,7 +134,7 @@ rename(IUCN_Species = Species, Avonet_Species = Synonym, Trophic_Niche = Trophic
   select(-c(Mass, Trophic_Niche, Genus, Genus_Avg_Mass, Genus_Trophic_data, Genus_Trophic))
   
 # save as CSV 
-write.csv(aves_threats_traits, 'aves_threats_traits.csv')
+write.csv(aves_threats_traits, 'aves_threats_traits_data.csv')
 
 
 
