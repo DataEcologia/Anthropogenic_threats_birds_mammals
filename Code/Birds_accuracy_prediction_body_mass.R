@@ -16,22 +16,13 @@ rm(list=ls())
 #-----------------------#                                                    
 #-Set Working Directory-#                                                         
 #-----------------------#
-##setwd(" ")
-setwd("C:/Threats_project/February_2026/Data_imputation/birds")
+setwd(" ")
 
 #-------------------------------------------------#
 ### Import bird species trait and threat data
 #-------------------------------------------------#
-aves_traits <- read.csv("Aves_threats_traits_2026.csv")
+aves_traits <- read.csv("Aves_threats_traits_data.csv")
 head(aves_traits)
-
-###------------------------ 
-### Remove DD species (i.e., Data Deficient species)
-###------------------------ 
-
-#aves_traits <- aves_traits %>% 
-  #filter(category != "DD")
-
 
 #-------------------------------#
 ### Select a subset of columns
