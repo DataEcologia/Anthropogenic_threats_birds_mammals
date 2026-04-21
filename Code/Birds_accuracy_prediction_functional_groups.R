@@ -23,7 +23,7 @@ library(data.table)
 #------------------------------#
 
 setwd("C:/Threats_project/February_2026/Data_imputation/birds")
-aves_traits <- read.csv("Aves_threats_traits.csv")
+aves_traits <- read.csv("Aves_threats_traits_data.csv")
 head(aves_traits)
 
 ###------------------------ 
