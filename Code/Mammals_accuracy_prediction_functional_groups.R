@@ -86,7 +86,7 @@ genus_diet4
 
 
 #----------------------------------------------------------------------------------------------------#
-### Assign the most common functional group of the genus to the observed functional group of a species
+### Assign the most common functional group per genus to the observed functional group of a species
 #----------------------------------------------------------------------------------------------------#
 
 genus_diet_major <- left_join(genus_diet4, mammals_traits2, by = "genus_name")%>% 
