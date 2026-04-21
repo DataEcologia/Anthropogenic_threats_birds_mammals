@@ -21,9 +21,7 @@ library(data.table)
 #------------------------------#                                            
 #-Import mammal traits and threats data                                             
 #------------------------------#  
-
-setwd("C:/Threats_project/February_2026/Data_imputation")
-mammals_traits <- read.csv("mammals_traits_n_threats_2026.csv")
+mammals_traits <- read.csv("mammals_traits_n_threats.csv")
 head(mammals_traits)
 
 ###------------------------ 
