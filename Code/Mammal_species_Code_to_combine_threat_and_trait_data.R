@@ -321,7 +321,10 @@ traits_n_threats_final <- threats_phylacine_eltonian %>%
                                            (combined_fn_group == "Herbivore_terrestrial" & Eltonian_herbivory == "FruitNectSeed") ~ "FruitNectSeed",
                                            (combined_fn_group == "Vertivore") ~ "Vertivore",
                                            (combined_fn_group == "Invertivore") ~ "Invertivore",
-                                           (combined_fn_group == "Aquatic_predator") ~ "Aquatic_predator",TRUE ~ "Omnivore"))
+                                           (combined_fn_group == "Aquatic_predator") ~ "Aquatic_predator",TRUE ~ "Omnivore"))%>% 
+select(-c(population, ...1,IUCN.2024,Binomial.1.2,Order.1.2,Family.1.2,Genus.1.2,Species.1.2,Terrestrial,Marine,Freshwater,Aerial,Life.Habit.Method, Life.Habit.Source,Mass.Method,Mass.Source,
+          Mass.Comparison, Mass.Comparison.Source,Island.Endemicity,IUCN.Status.1.2,Added.IUCN.Status.1.2,Diet.Plant,Diet.Vertebrate,Diet.Invertebrate,Diet.Method,Diet.Source, Marine_fresh, Terr_aerial,
+          Binomial, Eltonian_sp_name, IUCN_sp_name, X, accpt_name,fn_group,average_body_mass,`BodyMass-Value`,sp_name,Eltonian_herbivory,MSWFamilyLatin))
 
 write.csv(traits_n_threats_final ,file = "mammals_traits_n_threats.csv")
 
