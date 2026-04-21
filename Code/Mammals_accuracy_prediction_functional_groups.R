@@ -21,7 +21,7 @@ library(data.table)
 #------------------------------#                                            
 #-Import mammal traits and threats data                                             
 #------------------------------#  
-mammals_traits <- read.csv("mammals_traits_n_threats.csv")
+mammals_traits <- read.csv("mammals_traits_n_threats_data.csv")
 head(mammals_traits)
 
 ###------------------------ 
