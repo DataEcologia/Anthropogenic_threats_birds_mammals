@@ -15,7 +15,7 @@ library(tidyverse)
 ## Import data                                                                 
 ###------------------------  
 
-data <- read.csv("aves_threats_traits.csv")
+data <- read.csv("aves_threats_traits_data.csv")
 
 data
 
