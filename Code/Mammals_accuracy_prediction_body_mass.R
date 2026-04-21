@@ -5,20 +5,21 @@
 ### a subset of mammal species with known trait data  - body mass
 #-------------------------------------------------------------------------#
 
-
+#-----------------------# 
 ### Load libraries
-
+#-----------------------# 
 library(tidyverse)
 library(data.table)
 
+#---------------------------# 
 ### Clear working environment
+#---------------------------# 
 rm(list=ls())
 
 #-----------------------#                                                    
 #-Set Working Directory-#                                                         
 #-----------------------#
 ##setwd(" ")
-setwd("C:/Threats_project/February_2026/Data_imputation")
 
 #-------------------------------------------------#
 ### Import mammal species trait and threat data
