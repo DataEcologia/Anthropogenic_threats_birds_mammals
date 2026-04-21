@@ -25,10 +25,10 @@ aves_function <- read.csv('aves_threat_data.csv')
 
 # Get AVONET data: load BirdLife csv                                          
 # https://opentraits.org/datasets/avonet.html                                
-avonet <- read.csv('AVONET1_BirdLife.csv')
+avonet <- read.csv('AVONET_BirdLife.csv')
 
 # species with status                                                      
-status <- read.csv('birds_extinct_risk.csv') %>%            
+status <- read.csv('Birds_extinct_risk.csv') %>%            
 select(scientific_name, category) %>%                                   
 mutate(Species = scientific_name) %>%                                 
 select(-scientific_name)
